@@ -29,7 +29,7 @@ public class CorridaCarro {
 	public void preparar() {
 
 		CarroList = new ArrayList<>();
-		System.out.println("A corrida vai começar. -  " + quantidadeCarro + " Carro correndo um percurso de "
+		System.out.println("A corrida vai comeÃ§ar. -  " + quantidadeCarro + " Carro correndo um percurso de "
 				+ distanciaTotal + "M. ");
 
 		for (int i = 0; i < corridaControle.getQtdeCarros(); i++) {
@@ -62,6 +62,6 @@ public class CorridaCarro {
 
 	public void exibirResultado() {
 		corridaControle.getCarrosChegada()
-				.forEach((k, v) -> System.out.println(new String(k + "º lugar - " + ((Carro) v).getNome())));
+				.forEach((k, v) -> System.out.println(new String(k + "Âº lugar - " + ((Carro) v).getNome())));
 	}
 }
